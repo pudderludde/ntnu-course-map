@@ -4,9 +4,10 @@ interface Props {
   course: Course | null
   onClose: () => void
   allCourses: Course[]
+  hideHeader?: boolean
 }
 
-export default function CourseSidebar({ course, onClose, allCourses }: Props) {
+export default function CourseSidebar({ course, onClose, allCourses, hideHeader }: Props) {
   const equivDetails = course?.equivalentCodes
     .map((code) => allCourses.find((c) => c.code === code))
     .filter(Boolean) as Course[] | undefined
@@ -20,10 +21,10 @@ export default function CourseSidebar({ course, onClose, allCourses }: Props) {
   return (
     <div
       style={{
-        width: 300,
+        width: hideHeader ? '100%' : 300,
         flexShrink: 0,
         background: '#fff',
-        borderLeft: '1px solid #e2e8f0',
+        borderLeft: hideHeader ? 'none' : '1px solid #e2e8f0',
         padding: 24,
         overflowY: 'auto',
         display: 'flex',
@@ -31,7 +32,7 @@ export default function CourseSidebar({ course, onClose, allCourses }: Props) {
         gap: 16,
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+      {!hideHeader && <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div>
           <div style={{ fontFamily: 'monospace', fontWeight: 700, fontSize: 18, color: '#3b82f6' }}>
             {course.code}
@@ -54,7 +55,7 @@ export default function CourseSidebar({ course, onClose, allCourses }: Props) {
         >
           ×
         </button>
-      </div>
+      </div>}
 
       <div>
         <span
