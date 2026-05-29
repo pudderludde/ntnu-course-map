@@ -1,0 +1,1161 @@
+[
+  {
+    "code": "TMA4100",
+    "name": "Mathematics 1 - Single variable calculus",
+    "credits": 7.5,
+    "description": "Limits, continuity, differentiation, and integration of functions of one variable. The intermediate value theorem, the mean-value theorem, extreme values, transcendental functions, implicit differentiation, related rates, indeterminate forms, Newton's method. Techniques of integration and numerical integration. Riemann sums, the definite integral, and the fundamental theorem of calculus. Area, vol",
+    "prerequisites": "Mathematics R2 or 3 MX from upper secondary school.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "TMA4401"
+    ],
+    "canonicalCode": "TMA4100"
+  },
+  {
+    "code": "TMA4105",
+    "name": "Mathematics 2 - Multivariable calculus and vector analysis",
+    "credits": 7.5,
+    "description": "Curves in space. Functions of several variables. Taylor's theorem in two dimensions, extremal values in several variables, Lagrange multipliers. Double and triple integrals, line and surface integrals. Vector calculus. The theorems of Green, Stokes, and Gauss.",
+    "prerequisites": "TMA4100 Mathematics 1 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100"
+    ],
+    "equivalentCodes": [
+      "MA1103"
+    ],
+    "canonicalCode": "TMA4105"
+  },
+  {
+    "code": "TMA4106",
+    "name": "Mathematics 2",
+    "credits": 7.5,
+    "description": "1. Calculus: Functions of real and complex variables.2. Linear algebra: Eigenspaces and diagonalization. Vector spaces and linear maps. Inner product spaces.3. Fourier analysis and systems of differential equations.",
+    "prerequisites": "TMA4101",
+    "prerequisiteCodes": [
+      "TMA4101"
+    ],
+    "equivalentCodes": [
+      "TMA4410"
+    ],
+    "canonicalCode": "TMA4106"
+  },
+  {
+    "code": "TMA4110",
+    "name": "Mathematics 3 - Linear algebra",
+    "credits": 7.5,
+    "description": "Complex numbers and the complex exponential function. Second order linear differential equations. Systems of linear equations, Gauss-Jordan elimination, reduced echelon form, matrix algebra, determinants. Vector spaces, subspaces, linear dependence and independence. Inner products, orthogonality, orthogonal projections, Gram-Schmidt orthogonalization, and the method of least squares. Eigenvalues a",
+    "prerequisites": "TMA4100 Calculus 1 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100"
+    ],
+    "equivalentCodes": [
+      "MA1201",
+      "MA6201",
+      "TMA4115",
+      "TMA4413"
+    ],
+    "canonicalCode": "TMA4115"
+  },
+  {
+    "code": "TMA4115",
+    "name": "Mathematics 3 - Linear algebra",
+    "credits": 7.5,
+    "description": "Complex numbers and the complex exponential function. Second order linear differential equations. Systems of linear equations, Gauss-Jordan elimination, reduced echelon form, matrix algebra, determinants. Vector spaces, subspaces, linear dependence and independence. Inner products, orthogonality, orthogonal projections, Gram-Schmidt orthogonalization, and the method of least squares. Eigenvalues a",
+    "prerequisites": "TMA4100 Calculus 1 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100"
+    ],
+    "equivalentCodes": [
+      "MA1201",
+      "MA6201",
+      "TMA4110",
+      "TMA4413"
+    ],
+    "canonicalCode": "TMA4115"
+  },
+  {
+    "code": "TMA4120",
+    "name": "Mathematics 4K - Complex analysis, differential equations and  Fourier analysis",
+    "credits": 7.5,
+    "description": "Complex functions, complex integration, Laurent series and calculation of residues. The Laplace transform with applications to solving ordinary differential equations and integral equations. Introduction to linear second order partial differential equations. Fourier series and the Fourier transform with applications to solving linear partial differential equations.",
+    "prerequisites": "The courses TMA4100/05/10/15 Mathematics 1/2/3; or the courses MA1101/2/3 and MA1201/2; or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115"
+    ],
+    "equivalentCodes": [
+      "MA2106"
+    ],
+    "canonicalCode": "TMA4120"
+  },
+  {
+    "code": "TMA4125",
+    "name": "Mathematics 4N - Differential equations and Fourier analysis",
+    "credits": 7.5,
+    "description": "The Laplace transform with applications to solving ordinary differential equations and integral equations. Fourier series and the Fourier transform with applications to solving linear partial differential equations. The Laplace transform with applications to solving ordinary differential equations and integral equations. Numerical methods: Interpolation, differentiation, and integration. Methods f",
+    "prerequisites": "The course is based on TMA4100/05/10/15 Mathematics 1/2/3 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115"
+    ],
+    "equivalentCodes": [
+      "TMA4130",
+      "TMA4135"
+    ],
+    "canonicalCode": "TMA4125"
+  },
+  {
+    "code": "TMA4130",
+    "name": "Mathematics 4N - Differential equations and Fourier analysis",
+    "credits": 7.5,
+    "description": "The Laplace transform with applications to solving ordinary differential equations and integral equations. Fourier series and the Fourier transform with applications to solving linear partial differential equations. Numerical methods: Interpolation, differentiation, and integration. Methods for solving linear and non-linear systems of equations. Runge-Kutta methods for solving systems of ordinary ",
+    "prerequisites": "The course is based on TMA4100/05/10/15 Mathematics 1/2/3 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115"
+    ],
+    "equivalentCodes": [
+      "TMA4125",
+      "TMA4135"
+    ],
+    "canonicalCode": "TMA4125"
+  },
+  {
+    "code": "TMA4135",
+    "name": "Mathematics 4D - Differential equations and Fourier analysis",
+    "credits": 7.5,
+    "description": "Partial derivatives. The Laplace transform with applications to solving ordinary differential equations and integral equations. Fourier series and the Fourier transform with applications to solving linear partial differential equations. Discrete Fourier transform. Numerical methods: Interpolation, differentiation, and integration. Methods for solving linear and non-linear equations. Runge-Kutta me",
+    "prerequisites": "The course is based on TMA4100/10/15 Mathematics 1/3 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4115"
+    ],
+    "equivalentCodes": [
+      "TMA4125",
+      "TMA4130"
+    ],
+    "canonicalCode": "TMA4125"
+  },
+  {
+    "code": "TMA4140",
+    "name": "Discrete Mathematics",
+    "credits": 7.5,
+    "description": "The course gives an introduction to mathematical logic and set theory, elementary number theory with modular arithmetic, and cryptology, including RSA. Other central topics are: Sequences, recurrence relations, mathematical induction and combinatorial counting methods with applications. Moreover, the course gives an introduction to the theory of relations, graphs and trees, as well as formal langu",
+    "prerequisites": "",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "TMA4412"
+    ],
+    "canonicalCode": "TMA4140"
+  },
+  {
+    "code": "TMA4145",
+    "name": "Linear Methods",
+    "credits": 7.5,
+    "description": "Linear and normed spaces. Completeness, Banach spaces and Banach's fixed point theorem. Picard's theorem. Linear transformations. Inner product spaces, projections, and Hilbert spaces. Orthogonal sequences and approximations. Linear functionals, dual space, and Riesz' representation theorem. Spectral theorem, Jordan canonical form, and matrix decompositions.",
+    "prerequisites": "The course is based on TMA4100/05/15/20 Mathematics 1/2/3/4K, or equivalent. Alternatively, the courses MA1101 Basic Calculus I, MA1102 Basic Calculus II, MA1103 Vector Calculus, MA1201 Linear Algebra and Geometry, MA1202 Linear Algebra with Applications.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115",
+      "TMA4120"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4145"
+  },
+  {
+    "code": "TMA4150",
+    "name": "Algebra",
+    "credits": 7.5,
+    "description": "The course deals with groups and rings. A group is one of the simplest mathematical objects one studies in modern mathematics, and they appear in a great many contexts. They are building blocks for symmetries, patterns and transformations. Whether you study molecules, crystals, or Rubik's cube, the underlying mathematical structure is a group.The course gives examples of the axiomatic framework of",
+    "prerequisites": "MA1301 Number theory, MA1201 Linear algebra and geometry, MA1202 Linear algebra with applications, TMA4110/4115 Calculus 3 or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4115",
+      "MA1301",
+      "MA1202"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4150"
+  },
+  {
+    "code": "TMA4160",
+    "name": "Cryptography",
+    "credits": 7.5,
+    "description": "A brief overview of symmetric key cryptography. Diffie-Hellman, public-key encryption (ElGamal, RSA, lattice-based), digital signatures (RSA, Schnorr). Security definitions for cryptographic schemes. Algorithms from algebra and number theory, including primality testing, computation of discrete logarithms in cyclic groups, and elliptic curves over finite fields. The exact contents may vary from ye",
+    "prerequisites": "The course is based on TMA4150 Algebra or similar background from algebra, or MA2201 Algebra (see course description for 2014/15). Some proficiency in the use of computers.",
+    "prerequisiteCodes": [
+      "TMA4150"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4160"
+  },
+  {
+    "code": "TMA4165",
+    "name": "Dynamical Systems",
+    "credits": 7.5,
+    "description": "The course gives an introduction to dynamical systems with an emphasis on analytical and qualitative methods for linear and nonlinear ordinary differential equations. Topics covered: Linear and nonlinear systems, existence and uniqueness, continuous dependence, phase plane analysis, equilibria, limit cycles, stability, Lyapunov's direct method, index theory, the Poincaré-Bendixson theorem, and exa",
+    "prerequisites": "Courses TMA4100/05/10/15/20 Calculus 1/2/3/4K and TMA4145 Linear Methods or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115",
+      "TMA4120",
+      "TMA4145"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4165"
+  },
+  {
+    "code": "TMA4175",
+    "name": "Complex Analysis",
+    "credits": 7.5,
+    "description": "The course provides an introduction to the theory of complex integration, conformal mappings and harmonic functions. The course also includes selected advanced topics as for example analytic continuation, analytic number theory, interpolation and approximation, and applications to fluid mechanics.",
+    "prerequisites": "The course is based on TMA4120 Mathematics 4K - Complex analysis, differential equations and Fourier analysis or an equivalent course. It is also an advantage to be familiar with the material in TMA4145 Linear methods or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4120",
+      "TMA4145"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4175"
+  },
+  {
+    "code": "TMA4180",
+    "name": "Optimization 1",
+    "credits": 7.5,
+    "description": "This course provides an introduction to continuous optimization in finite dimensional vector spaces.Topics to be discussed are: First and second order necessary and sufficient (Karush-Kuhn-Tucker) optimality conditions for unconstrained and constrained optimization problems in finite-dimensional vector spaces. Basics of convex analysis and convex duality theory and their application to optimizatio",
+    "prerequisites": "Calculus 1-4, or equivalent.",
+    "prerequisiteCodes": [
+      "MA1101",
+      "TMA4100",
+      "TMA4101",
+      "MA1102",
+      "TMA4105",
+      "TMA4106",
+      "TMA4115",
+      "TMA4120",
+      "TMA4125"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4180"
+  },
+  {
+    "code": "TMA4190",
+    "name": "Introduction to Topology",
+    "credits": 7.5,
+    "description": "This course is a first introduction to topology. It will start with basic concepts in point set topology (e.g. topological spaces, continuous maps, metric spaces, constructions of topological spaces, compactness, connectedness). Then it will give an introduction to algebraic topology, such as homotopy, fundamental group, and covering spaces.",
+    "prerequisites": "The course is based on TMA4100/05/15 Mathematics 1/2/3 or equivalent. For students who have their background from mathematical sciences: The course is based on MA1101 Basic Calculus I, MA1102 Basic Calculus II, MA1103 Vector Calculus, MA1201 Linear Algebra and Geometry, MA1202 Linear Algebra with Applications. In addition, it is recommended to have taken TMA4150 Algebra and MA3201 Rings and Modules.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115",
+      "MA1101",
+      "MA1102",
+      "MA1202",
+      "TMA4150",
+      "MA3201"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4190"
+  },
+  {
+    "code": "TMA4195",
+    "name": "Mathematical Modelling",
+    "credits": 7.5,
+    "description": "The course is an introduction to generic principles and methods to formulate mathematical models of systems and processes in science and engineering. Topics covered include dimensional analysis, scaling, perturbation analysis, dynamical models, conservation laws, and applications.",
+    "prerequisites": "TMA4100/05/10/15 Calculus 1/2/3/4 or similar courses. Beyond this, a basic knowledge of applied mathematics and physics is an advantage.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4195"
+  },
+  {
+    "code": "TMA4205",
+    "name": "Numerical Linear Algebra",
+    "credits": 7.5,
+    "description": "The course focuses on iterative techniques for solving large sparse linear systems of equations which typically stem from the discretisation of partial differential equations. In addition, computation of eigenvalues, least square problems and error analysis will be discussed.",
+    "prerequisites": "The course is based on TMA4145 Linear Methods or equivalent. TMA4215 Numerical Mathematics is recommended, but not mandatory.",
+    "prerequisiteCodes": [
+      "TMA4145",
+      "TMA4215"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4205"
+  },
+  {
+    "code": "TMA4212",
+    "name": "Numerical Solution of Differential Equations by Difference Methods",
+    "credits": 7.5,
+    "description": "Difference schemes for different types of partial differential equations. Analysis of consistency, order, stability and convergence. Solution of linear systems by iterative methods and preconditioning. Finite element method.",
+    "prerequisites": "TMA4215 Numerical Mathematics or similar.",
+    "prerequisiteCodes": [
+      "TMA4215"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4212"
+  },
+  {
+    "code": "TMA4215",
+    "name": "Numerical Mathematics",
+    "credits": 7.5,
+    "description": "Error analysis. Approximation of functions. Numerical quadrature. Numerical linear algebra. Numerical solution of nonlinear equations and its relation to optimisation. Numerical solution of ordinary differential equations.",
+    "prerequisites": "TMA4100/05/15/20, Mathematics 1/2/3/4K. TMA4320 Introduction to scientific computation or Mathematics 4N or 4D. Some programming experience.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115",
+      "TMA4120",
+      "TMA4320"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4215"
+  },
+  {
+    "code": "TMA4220",
+    "name": "Numerical Solution of Partial Differential Equations Using Element Methods",
+    "credits": 7.5,
+    "description": "The course gives an introduction to finite element methods for the numerical solution of partial differential equations. Topics include: Minimization principle, weak formulation, boundary conditions, quadrature, error analysis, stability, convergence, implementation, direct and iterative solution of the resulting algebraic systems of equations, and applications to the Poisson equation and convecti",
+    "prerequisites": "The course is based on TMA4215 Numerical Mathematics and TMA4212 Numerical Solution of Differential Equations by Difference Methods.",
+    "prerequisiteCodes": [
+      "TMA4215",
+      "TMA4212"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4220"
+  },
+  {
+    "code": "TMA4225",
+    "name": "Foundations of Analysis",
+    "credits": 7.5,
+    "description": "The modern concept of integral was introduced on April 29, 1901, in a short article by Henri Lebesgue. That article opened a new chapter of analysis. The flaws of the Riemann Integral will be pointed out, and the Lebesgue integral will be introduced to remedy the situation. Key concepts include measure theory including sigma-algebras, measurable spaces, measurable functions, outer measures, constr",
+    "prerequisites": "The course is based on TMA4100/05/15/20 Mathematics 1/2/3/4K and TMA4145 Linear Methods.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TMA4105",
+      "TMA4115",
+      "TMA4120",
+      "TMA4145"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4225"
+  },
+  {
+    "code": "TMA4230",
+    "name": "Functional Analysis",
+    "credits": 7.5,
+    "description": "This course provides students with results and methods that are applicable to other areas of mathematics, and are the foundations for more advanced topics in functional analysis. The Hahn-Banach theorem, the open mapping and closed graph theorems, the Banach-Steinhaus theorem, dual spaces, weak convergence, the Banach-Alaoglu theorem, and the spectral theorem for compact operators.",
+    "prerequisites": "TMA4145 Linear Methods and TMA4225 Foundation of Analysis.",
+    "prerequisiteCodes": [
+      "TMA4145",
+      "TMA4225"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4230"
+  },
+  {
+    "code": "TMA4240",
+    "name": "Statistics",
+    "credits": 7.5,
+    "description": "Descriptive statistics. Probabilities for an event and stochastic variables. Independent and dependent stochastic variables. Conditional probability. Monte Carlo simulation. Univariate and multivariate probability distributions. The most important classes of univariate probability distributions. Point estimation, interval estimation and hypothesis testing for one and two sample data. Simple linear",
+    "prerequisites": "TMA4100 Calculus 1 or equivalent, and TDT4109 or TDT4110 Information Technology Introduction or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TDT4110"
+    ],
+    "equivalentCodes": [
+      "TMA4245"
+    ],
+    "canonicalCode": "TMA4240"
+  },
+  {
+    "code": "TMA4245",
+    "name": "Statistics",
+    "credits": 7.5,
+    "description": "Descriptive statistics. Probabilities for an event and stochastic variables. Independent and dependent stochastic variables. Conditional probability. Monte Carlo simulation. Univariate and multivariate probability distributions. The most important classes of univariate probability distributions. Point estimation, interval estimation and hypothesis testing for one and two sample data. Simple linear",
+    "prerequisites": "TMA4100 Calculus 1 or equivalent, and TDT4109 or TDT4110 Information Technology Introduction or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4100",
+      "TDT4110"
+    ],
+    "equivalentCodes": [
+      "TMA4240"
+    ],
+    "canonicalCode": "TMA4240"
+  },
+  {
+    "code": "TMA4250",
+    "name": "Spatial Statistics",
+    "credits": 7.5,
+    "description": "Statistical models for spatially varying phenomena, and statistical methods to learn about such phenomena based on data points with spatial coordinates. The most common example of \"space\" is a geographical area. More specifically, the course contains model specification, simulation, prediction, and parameter estimation, for continuously- and discretely-indexed random fields, and for point processe",
+    "prerequisites": "TMA4240/TMA4245 Statistics and TMA4300 Computer Intensive Statistical Methods (may be taken as a parallel), or equivalent. The subject requires a mature understanding of statistics and we also recommend TMA4265 Stochastic Processes and TMA4267 Linear Statistical Models.",
+    "prerequisiteCodes": [
+      "TMA4240",
+      "TMA4300",
+      "TMA4265",
+      "TMA4267"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4250"
+  },
+  {
+    "code": "TMA4255",
+    "name": "Applied Statistics",
+    "credits": 7.5,
+    "description": "Hypothesis testing. Simple and multiple linear regression. Model choice. Experimental design, including two-level factorial design. Error propagation formula. Analysis of variance. Process control. Contingency tables. Non-parametric methods. Use of statistical computer package.",
+    "prerequisites": "ST0103 Statistics with Applications/TMA4240 Statistics/TMA4245 Statistics, or equivalent.",
+    "prerequisiteCodes": [
+      "ST0103",
+      "TMA4240"
+    ],
+    "equivalentCodes": [
+      "ST2304"
+    ],
+    "canonicalCode": "TMA4255"
+  },
+  {
+    "code": "TMA4265",
+    "name": "Stochastic Modeling",
+    "credits": 7.5,
+    "description": "Important models for multivariate random variables: Markov chains, Poisson processes, birth-and-death processes in continuous time, Brownian motion and Gaussian processes. Approaches for stochastic simulation of random variables.",
+    "prerequisites": "The course TMA4240/TMA4245 Statistics or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4240"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4265"
+  },
+  {
+    "code": "TMA4267",
+    "name": "Linear Statistical Models",
+    "credits": 7.5,
+    "description": "Random vectors. Multivariate normal distribution. Multiple linear regression. Analysis of variance. Multiple hypothesis testing. Design of experiments.",
+    "prerequisites": "The course is based on TMA4240/4245 Statistics, or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4240"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4267"
+  },
+  {
+    "code": "TMA4268",
+    "name": "Statistical Learning",
+    "credits": 7.5,
+    "description": "Statistical learning, multiple linear regression, classification, resampling methods, modell selection/regularization, non-linearity, tree-based methods, neural networks.",
+    "prerequisites": "The course is based on TMA4240/4245 Statistics, or equivalent. Good understanding of linear algebra (matrix methods) and optimization.The student will get maximum output from the course when taken together with TMA4267 and TMA4315 (either previous semester or in combination).",
+    "prerequisiteCodes": [
+      "TMA4240",
+      "TMA4267",
+      "TMA4315"
+    ],
+    "equivalentCodes": [
+      "BBAN4001"
+    ],
+    "canonicalCode": "TMA4268"
+  },
+  {
+    "code": "TMA4275",
+    "name": "Lifetime Analysis",
+    "credits": 7.5,
+    "description": "Basic concepts in lifetime modelling and in martingale theory. Censored observations. Nonparametric estimation and graphical plotting for lifetime data (Kaplan-Meier, Nelson-Aalen plot). Estimation and testing in parametric lifetime distributions. Analysis of lifetimes with covariates (Cox-regression, accelerated lifetime testing). Modelling and analysis of recurrent events. Nonhomogeneous Poisson",
+    "prerequisites": "TMA4240/TMA4245 Statistics or equivalent. It will be an advantage to have taken at least one of the courses TMA4267 Linear Statistical Models and TMA4255 Applied Statistics.",
+    "prerequisiteCodes": [
+      "TMA4240",
+      "TMA4267",
+      "TMA4255"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4275"
+  },
+  {
+    "code": "TMA4285",
+    "name": "Time Series",
+    "credits": 7.5,
+    "description": "Autoregressive and moving average based models for stationary and non-stationary time series. Parameter estimation. Model identification. Forecasting. ARCH and GARCH models for volatility. State space models (linear dynamic models) and the Kalman filter.",
+    "prerequisites": "TMA4240/4245 Statistics or equivalent. The course demands some degree of maturity in Statistics and we also recommend to have TMA4267 Linear Statistical Models or TMA4255 Applied Statistics. TMA4145 Linear Methods (Vector- and Hilbert space) is also recommended.",
+    "prerequisiteCodes": [
+      "TMA4240"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4285"
+  },
+  {
+    "code": "TMA4295",
+    "name": "Statistical Inference",
+    "credits": 7.5,
+    "description": "Transformations and moments of random variables. Families of distributions. Inequalities and convergence theorems. Sufficient statistics. Frequentist and Bayesian estimators. Methods of constructing point estimators, interval estimators and hypothesis tests, and optimality of these. Asymptotic properties of estimators and hypothesis tests.",
+    "prerequisites": "TMA4240/4245 Statistics or equivalent. The course demands some degree of maturity in Statistics and we also recommend to have TMA4267 Linear Statistical Models or TMA4255 Applied Statistics.",
+    "prerequisiteCodes": [
+      "TMA4240"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4295"
+  },
+  {
+    "code": "TMA4300",
+    "name": "Computer Intensive Statistical Methods",
+    "credits": 7.5,
+    "description": "Classical and Markov chain methods for stochastic simulation. Hierarchical Bayesian models and inference in these. The expectation maximisation (EM) algorithm. Bootstrapping, cross-validation and non-parametric methods. Classification.",
+    "prerequisites": "TMA4240/TMA4245 Statistics or equivalent. The subject requires a mature understanding of statistics and we also recommend TMA4265 Stochastic Processes and TMA4267 Linear Statistical Models.",
+    "prerequisiteCodes": [
+      "TMA4240",
+      "TMA4265",
+      "TMA4267"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4300"
+  },
+  {
+    "code": "TMA4305",
+    "name": "Partial Differential Equations",
+    "credits": 7.5,
+    "description": "The course provides a thorough introduction to the mathematical theory of partial differential equations, both the classical theory of Laplace, Cauchy, Fourier, Gauss etc. and the modern theory based on functional analytic methods. Topics covered are first order equations, Cauchy's problems, characteristics, linear second-order equations, classification, boundary value problems for elliptic equati",
+    "prerequisites": "TMA4145 Linear Methods or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4145"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4305"
+  },
+  {
+    "code": "TMA4310",
+    "name": "Mathematical Subjects, Advanced Course",
+    "credits": 7.5,
+    "description": "",
+    "prerequisites": "Dependent on which course that is chosen.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4310"
+  },
+  {
+    "code": "TMA4315",
+    "name": "Generalized Linear Models",
+    "credits": 7.5,
+    "description": "Univariate exponential family. Multiple linear regression. Logistic regression. Poisson regression. General formulation for generalised linear models with canonical link. Likelihood-based inference with score function and expected Fisher information. Deviance. AIC. Wald, score and likelihood-ratio test. Linear mixed effects models with random components of general structure. Random intercept and r",
+    "prerequisites": "TMA4267 Linear Statistical Models or TMA4255 Applied Statistics. Good knowledge in R, a software environment for statistical computing and graphics.",
+    "prerequisiteCodes": [
+      "TMA4267",
+      "TMA4255"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4315"
+  },
+  {
+    "code": "TMA4320",
+    "name": "Introduction to Scientific Computation",
+    "credits": 7.5,
+    "description": "The course consists of two equal parts: theoretical and practical/computational. The theoretical part of the course introduces the participants to scientific computing/numerical mathematics and prepares them for the computational part. The latter consists of three compulsory projects originating from physics, biophysics and mathematics. Potential topics for the numerical mathematics part are numer",
+    "prerequisites": "Basic courses in Mathematics, Physics and Computer Science (programming).",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [],
+    "canonicalCode": "TMA4320"
+  },
+  {
+    "code": "TMA4401",
+    "name": "Mathematics 1D: Calculus",
+    "credits": 7.5,
+    "description": "Sequences. Completeness property for real numbers. Convergence of sequences (both pointwise and uniform convergence). The concept of a limit.Properties and theorems related to continuous functions of one variabel: Continuity, the intermediate value theorem, the extreme value theorem and uniform continuity.Differentiation of functions of one variable. Rules of differentiation. The mean value theore",
+    "prerequisites": "Mathematics R2 from upper secondary school, or equivalent knowledge.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "TMA4100"
+    ],
+    "canonicalCode": "TMA4100"
+  },
+  {
+    "code": "MA1103",
+    "name": "Multivariate analysis and vector calculus",
+    "credits": 7.5,
+    "description": "Vector-valued functions of one variable. Differentiability. Differentiation rules. Curves given by vector-valued functions. Unit tangent and normal vectors. Arc length. Curvature.Functions of two or more variables (scalar fields). Limit. Continuity. Partial differentiation. The chain rule. Automated differentiation. Linear approximation. Differentiability. Gradient. Directional derivative. Level c",
+    "prerequisites": "MA1101 Foundational calculus 1 and MA1201 Linear algebra and geometry; or TMA4401 Calculus and TMA4413 Linear algebra and differential equations; or equivalent.",
+    "prerequisiteCodes": [
+      "MA1101",
+      "TMA4115",
+      "TMA4100"
+    ],
+    "equivalentCodes": [
+      "TMA4105"
+    ],
+    "canonicalCode": "TMA4105"
+  },
+  {
+    "code": "TMA4101",
+    "name": "Mathematics 1",
+    "credits": 7.5,
+    "description": "1. Linear algebra: Linear systems of equations. Matrix operations. Linear independence. Eigenvectors.2. Sequences and series.3. Univariate calculus with applications.4. Systems of differential equations.",
+    "prerequisites": "R2, 3MX, or similar high school mathematics..",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "TMA4400"
+    ],
+    "canonicalCode": "TMA4101"
+  },
+  {
+    "code": "TMA4410",
+    "name": "Mathematics 2A: Linear Algebra, Differential equations, Integral transforms and Series",
+    "credits": 7.5,
+    "description": "The course is based on TMA4400 and develops topics from this course further. In addition, various forms of infinite series, methods for approximating functions and integral transforms are treated.General vector spaces and linear transformations. Subspaces. Linear dependence and independence, and dimensional analysis inRnand in general vector spaces. Basis. Kernel and range. Rank of matrices. Proje",
+    "prerequisites": "TMA4400 - Mathematics 1: Calculus and Linear Algebra, or equivalent.",
+    "prerequisiteCodes": [
+      "TMA4101"
+    ],
+    "equivalentCodes": [
+      "TMA4106"
+    ],
+    "canonicalCode": "TMA4106"
+  },
+  {
+    "code": "TMA4413",
+    "name": "Mathematics 2D: Linear algebra and differential equations",
+    "credits": 7.5,
+    "description": "Complex numbers. Euler's formula. The fundamental theorem of algebra.Systems of linear equations. Gauss elimination. Existence, uniqueness and parametrization of solutions.Vector equations. Linear span. Matrices. LU-factorization. Matrix algebra. Identity matrices. Inverse matrices.Linear independence. Determinants. Properties of determinants. Vector space. Row, column and null space of a matrix. ",
+    "prerequisites": "Mathematics R2 from upper secondary school, or equivalent knowledge.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MA1201",
+      "MA6201",
+      "TMA4110",
+      "TMA4115"
+    ],
+    "canonicalCode": "TMA4115"
+  },
+  {
+    "code": "MA2106",
+    "name": "Complex Function Theory and Differential Equations",
+    "credits": 7.5,
+    "description": "Differentiability of functions of complex variables, Cauchy-Riemann equations, analytical and harmonic functions, complex integration, Cauchy's integral theorem and formula, analytical functions such as power series, zero points and poles, essential singularities, Laurent series, residy calculus, Fourier series, Fourier techniques for partial differential equations, separation of variables, wave e",
+    "prerequisites": "MA1101, MA1102, MA1103, MA1201 and MA1202.",
+    "prerequisiteCodes": [
+      "MA1101",
+      "MA1102",
+      "TMA4105",
+      "TMA4115",
+      "MA1202"
+    ],
+    "equivalentCodes": [
+      "TMA4120"
+    ],
+    "canonicalCode": "TMA4120"
+  },
+  {
+    "code": "TMA4412",
+    "name": "Mathematics 2C: Discrete Mathematics",
+    "credits": 7.5,
+    "description": "The course gives an introduction to mathematical logic and set theory, elementary number theory with modular arithmetic, and cryptology, including RSA and discrete logarithms. Other central topics are: Sequences, recurrence relations, mathematical induction, and combinatorial counting methods with applications. Moreover, the course gives an introduction to the theory of relations, graphs and trees",
+    "prerequisites": "",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "TMA4140"
+    ],
+    "canonicalCode": "TMA4140"
+  },
+  {
+    "code": "MA1301",
+    "name": "Number Theory",
+    "credits": 7.5,
+    "description": "This course gives an introduction to elementary number theory. Topics included are: greatest common divisor, Euclidean algorithm, linear diophantine equations, elementary prime number theory, linear congruences, Chinese remainder theorem, Fermat's little theorem, Euler's phi-function, Euler's theorem with application to cryptography. Additional topics that may change from year to year may include ",
+    "prerequisites": "The course is based on Mathematics R2 from high school, or equivalent.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MA6301"
+    ],
+    "canonicalCode": "MA1301"
+  },
+  {
+    "code": "MA1201",
+    "name": "Linear Algebra and Geometry",
+    "credits": 7.5,
+    "description": "The course takes up basics of logic and set theory, methods of proof, and complex numbers. We solve linear equations using Gaussian elimination, and learn to write equations with vectors and matrices, and to interpret row operations as multiplication with elementary matrices. We discuss matrix calculus in general, including finding the inverse of a matrix arithmetic rules inverses, transposed, and",
+    "prerequisites": "The course is based on Mathematics R2 from high school or equivalent.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MA6201",
+      "TMA4110",
+      "TMA4115",
+      "TMA4413"
+    ],
+    "canonicalCode": "TMA4115"
+  },
+  {
+    "code": "MA1202",
+    "name": "Linear Algebra with Applications",
+    "credits": 7.5,
+    "description": "The course is a continuation of MA1201. We start with general vector spaces over the real and complex numbers, and linear maps (including related subspaces  kernel and image  and representations in matrix form given bases). We study operators on finite dimensional vector spaces by looking at eigenvectors, eigenspaces, generalized eigenspaces, aiming for the Cayley-Hamilton theorem and normal for",
+    "prerequisites": "MA1201 Linear algebra and geometry.",
+    "prerequisiteCodes": [
+      "TMA4115"
+    ],
+    "equivalentCodes": [
+      "MA6202"
+    ],
+    "canonicalCode": "MA1202"
+  },
+  {
+    "code": "MA1101",
+    "name": "Foundational Calculus 1",
+    "credits": 7.5,
+    "description": "Basic properties of real numbers and real functions of a real variable; limits, continuity, differentiation and integration. The fundamental theorem of calculus and its applications are central. There is an emphasis on rigour.",
+    "prerequisites": "The course is based on Mathematics R2 from high school, or equivalent.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MA6101"
+    ],
+    "canonicalCode": "MA1101"
+  },
+  {
+    "code": "MA1102",
+    "name": "Basic Calculus 2",
+    "credits": 7.5,
+    "description": "Real and complex numbers, elementary topology for euclidian spaces, fundamental theorem of algebra, partial summation, sequences and series, power series, Taylor series, uniform convergence of functions, Weierstrass approximation theorem, first order differential equations, Picard-Lindelöf Theorem, linear differential equations, power series solutions of differential equations.",
+    "prerequisites": "The course is based on MA1101 Basic calculus 1.",
+    "prerequisiteCodes": [
+      "MA1101"
+    ],
+    "equivalentCodes": [
+      "MA6102"
+    ],
+    "canonicalCode": "MA1102"
+  },
+  {
+    "code": "MA3201",
+    "name": "Rings and Modules",
+    "credits": 7.5,
+    "description": "The course builds further on the course TMA4150 Algebra. It gives a basis for further studies in algebra by discussing central classes of rings, and by giving an introduction to the theory of modules. An alternative approach to Jordan canonical form is given as an application of module theory. The course includes Artinian and Noeterian rings and modules, structure theorems for modules over princip",
+    "prerequisites": "The course is based on MA1201 Linear algebra and geometry, MA1202 Linear algebra with applications and TMA4150 Algebra, or equivalent knowledge.",
+    "prerequisiteCodes": [
+      "TMA4115",
+      "MA1202",
+      "TMA4150"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "MA3201"
+  },
+  {
+    "code": "TDT4109",
+    "name": "Information Technology, Introduction",
+    "credits": 7.5,
+    "description": "The course consists of two parts: ICT theory and an introduction to procedure-oriented programming in Python.ICT theory Principles of computer operations:Fundamentals of computer hardwareDigital representation.Git.Programming:Variables and data types.Input and output.Control structures: Sequence, conditional program flow and repetitions.Algorithms. Structuring and modularization of programs; funct",
+    "prerequisites": "None.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "INFT1010",
+      "IT1001",
+      "TDT4110",
+      "TDT4111"
+    ],
+    "canonicalCode": "TDT4110"
+  },
+  {
+    "code": "TDT4110",
+    "name": "Information Technology, Introduction",
+    "credits": 7.5,
+    "description": "The course gives an introduction to basic procedure-oriented programming in Python. Concepts covered are: Variables and data types, representation of numbers and its significance in calculations (such as rounding errors). Input and output. Control structures: Sequence, selection and repetition. Structuring and division of programs; functions and modules. Data structures: Strings, lists, tuples, ta",
+    "prerequisites": "None.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "INFT1010",
+      "IT1001",
+      "TDT4109",
+      "TDT4111"
+    ],
+    "canonicalCode": "TDT4110"
+  },
+  {
+    "code": "ST0103",
+    "name": "Statistics with Applications",
+    "credits": 7.5,
+    "description": "Descriptive statistics. Probability calculations, including probability laws, conditional probability and independence, random variables, discrete and continuous probability distributions, expected value, variance, bivariate probability distributions, covariance and correlation. Estimation, confidence intervals and hypothesis testing. The central limit theorem. Introduction to simple linear regres",
+    "prerequisites": "MA0001 Mathematical methods A and MA0002 Mathematical methods B, or equivalent.",
+    "prerequisiteCodes": [
+      "MA0001",
+      "MA0002"
+    ],
+    "equivalentCodes": [
+      "AR100219",
+      "MET1002",
+      "REA1154",
+      "REA1154F",
+      "ST1101",
+      "SØK1004"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "ST2304",
+    "name": "Statistical Modelling for Biologists/Biotechnologists",
+    "credits": 7.5,
+    "description": "Practical use of the software package R. Multiple regression. Analysis of variance. Analysis of categorical data. Generalised linear models. Basic principles for statistical inference. Simulation from a model. Properties of estimators. Statistical power. Numerical maximisation of the likelihood function. Some asymptotic results. Model selection. Non-parametric tests.",
+    "prerequisites": "ST0103 Statistics with applications, MA0001 Mathematical Methods A and MA0002 Mathematical methods B or equivalent.",
+    "prerequisiteCodes": [
+      "ST0103",
+      "MA0001",
+      "MA0002"
+    ],
+    "equivalentCodes": [
+      "TMA4255"
+    ],
+    "canonicalCode": "TMA4255"
+  },
+  {
+    "code": "BBAN4001",
+    "name": "Data Science",
+    "credits": 7.5,
+    "description": "The course provides a theoretical and practical introduction to a number of topics in data analysis and statistical learning, with special emphasis on applications in the field of economics.These topics may include:Linear, non-linear and logistic regressionLinear and quadratic discriminant analysisCross-validationBootstrappingDecision trees and boostingSupport vector machinesClusteringNeural netwo",
+    "prerequisites": "MET1002 or an equivalent introductory course in probability and statistics.TDT4110 or an equivalent introduction to basic programming in Python.",
+    "prerequisiteCodes": [
+      "ST0103",
+      "TDT4110"
+    ],
+    "equivalentCodes": [
+      "TMA4268"
+    ],
+    "canonicalCode": "TMA4268"
+  },
+  {
+    "code": "TMA4400",
+    "name": "Mathematics 1: Calculus and Linear Algebra",
+    "credits": 7.5,
+    "description": "The course is a deepening and continuation of subject matter on functions and vectors from upper secondary school and it forms the foundation for the other mathematics courses in the Master of Technology study programmes.Number sets (from natural to complex numbers). The limit concept, convergence of sequences, completeness of the real numbers. Properties and theorems connected to functions of one",
+    "prerequisites": "Mathematics R2 from upper secondary school, or equivalent knowledge.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "TMA4101"
+    ],
+    "canonicalCode": "TMA4101"
+  },
+  {
+    "code": "MA6201",
+    "name": "Linear Algebra and Geometry",
+    "credits": 7.5,
+    "description": "This course is equivalent to MA1201, adapted to further education. The course takes up basics of logic and set theory, methods of proof, and complex numbers. We solve linear equations using Gaussian elimination, and learn to write equations with vectors and matrices, and to interpret row operations as multiplication with elementary matrices. We discuss matrix calculus in general, including finding",
+    "prerequisites": "The course is based on Mathematics R2 from high school, or equivalent.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MA1201",
+      "TMA4110",
+      "TMA4115",
+      "TMA4413"
+    ],
+    "canonicalCode": "TMA4115"
+  },
+  {
+    "code": "MA6301",
+    "name": "Number Theory",
+    "credits": 7.5,
+    "description": "This course gives an introduction to elementary number theory. Topics included are: greatest common divisor, Euclidean algorithm, linear diophantine equations, elementary prime number theory, linear congruences, Chinese remainder theorem, Fermat's little theorem, Euler's phi-function, Euler's theorem with application to cryptography. Additional topics that may change from year to year may include ",
+    "prerequisites": "The course is based on Mathematics R2 from high school, or equivalent.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MA1301"
+    ],
+    "canonicalCode": "MA1301"
+  },
+  {
+    "code": "MA6202",
+    "name": "Linear Algebra with Applications",
+    "credits": 7.5,
+    "description": "The course is a continuation of MA6201. This course corresponds scientifically to MA1202, adapted to Continuing Education. We start with general vector spaces over the real and complex numbers, and linear maps (including related subspaces, kernel and image, and representations in matrix form given bases). We study operators on finite dimensional vector spaces by looking at eigenvectors, eigenspace",
+    "prerequisites": "MA6201/MA1201 Linear algebra and geometry.",
+    "prerequisiteCodes": [
+      "TMA4115"
+    ],
+    "equivalentCodes": [
+      "MA1202"
+    ],
+    "canonicalCode": "MA1202"
+  },
+  {
+    "code": "MA6101",
+    "name": "Basic Calculus 1",
+    "credits": 7.5,
+    "description": "This course is equivalent to MA1101, adapted to further education. Basic properties of real numbers and real functions of a real variable; limits, continuity, differentiation and integration. The fundamental theorem of calculus and its applications are central. There is an emphasis on rigour.",
+    "prerequisites": "The course is based on Mathematics R2 from high school, or equivalent. Or MA6004.",
+    "prerequisiteCodes": [
+      "MA6004"
+    ],
+    "equivalentCodes": [
+      "MA1101"
+    ],
+    "canonicalCode": "MA1101"
+  },
+  {
+    "code": "MA6102",
+    "name": "Basis Calculus 2",
+    "credits": 7.5,
+    "description": "This course is academically equivalent to MA1102, adapted for further education. The course expands and elaborates more the content, applications and level of abstraction of MA6101. Real and complex numbers, elementary topology for euclidian spaces, fundamental theorem of algebra, partial summation, sequences and series, power series, Taylor series, uniform convergence of functions, Weierstrass ap",
+    "prerequisites": "The course is based on MA6101 Basic calculus 1.",
+    "prerequisiteCodes": [
+      "MA1101"
+    ],
+    "equivalentCodes": [
+      "MA1102"
+    ],
+    "canonicalCode": "MA1102"
+  },
+  {
+    "code": "IT1001",
+    "name": "Information Technology, Introduction",
+    "credits": 7.5,
+    "description": "The course provides an introduction to procedural programming, with Python as language, as well as experience in conducting a small programming project related to the teaching of STEM subjects in high school. Concepts covered: Variables and data types, representation of numbers and implications in calculations (e.g., rounding errors). Input and output. Control structures: sequence, branching, loop",
+    "prerequisites": "None.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "INFT1010",
+      "TDT4109",
+      "TDT4110",
+      "TDT4111"
+    ],
+    "canonicalCode": "TDT4110"
+  },
+  {
+    "code": "INFT1010",
+    "name": "Information Technology, Introduction",
+    "credits": 7.5,
+    "description": "The course gives an introduction to basic procedure-oriented programming in Python.Concepts covered are: Variables and data types, representation of numbers and its significance in calculations (such as rounding errors). Input and output. Control structures: Sequence, selection and repetition. Structuring and division of programs; functions and modules. Data structures: Strings, lists, tuples, tab",
+    "prerequisites": "",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "IT1001",
+      "TDT4109",
+      "TDT4110",
+      "TDT4111"
+    ],
+    "canonicalCode": "TDT4110"
+  },
+  {
+    "code": "MA0001",
+    "name": "Mathematical Methods A",
+    "credits": 7.5,
+    "description": "This course, together with MA0002, will give a sufficient mathematical background for science courses requiring only basic mathematics. The course will introduce functions of one real variable, exponential, logarithm and trigonometric functions, differentiation and integration with applications, implicit differentiation, and linear approximation.",
+    "prerequisites": "The course is based on Mathematics R1 or 2MX from high school, or equivalent.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [],
+    "canonicalCode": "MA0001"
+  },
+  {
+    "code": "MA0002",
+    "name": "Mathematical Methods B",
+    "credits": 7.5,
+    "description": "This course, together with MA0001, will give a sufficient mathematical background for science courses requiring only basic mathematics. The course should also enable students to continue with mathematics courses that normally require MA1101 Basic calculus I, and with some additional effort enable students to continue with courses that normally require MA1102 Basic calculus II. The course will intr",
+    "prerequisites": "The course is based on MA0001 Mathematical methods A or equivalent.",
+    "prerequisiteCodes": [
+      "MA0001"
+    ],
+    "equivalentCodes": [],
+    "canonicalCode": "MA0002"
+  },
+  {
+    "code": "MET1002",
+    "name": "Statistics for Economists",
+    "credits": 7.5,
+    "description": "Data is required to quantify economic relationships and statistical models are used to draw information from data which is characterized by uncertainty and variation. This course covers methods used to analyse such data and include the calculation of probability, model estimation and hypothesis testing. The topic also includes the use of statistical tools.",
+    "prerequisites": "SØK1001/ MET1001 and TDT4111 or equivalent",
+    "prerequisiteCodes": [
+      "MET1001",
+      "TDT4110"
+    ],
+    "equivalentCodes": [
+      "AR100219",
+      "REA1154",
+      "REA1154F",
+      "ST0103",
+      "ST1101",
+      "SØK1004"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "MA6004",
+    "name": "Algebra, Functions and Modelling",
+    "credits": 7.5,
+    "description": "Lessons are not given in the academic year 2025-2026.This course gives an introduction to properties of functions of one variable, and an introduction to differential equations. Using mathematics to describe extra-mathematical situations (modelling) is a central topic. Use of digital tools, including programming, will be included. Aspects related to teaching algebra and functions will also be incl",
+    "prerequisites": "To be admitted to the course, previous knowledge corresponding to R1 from Norwegian upper secondary school must be documented. It is an advantage also to have completed R2.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [],
+    "canonicalCode": "MA6004"
+  },
+  {
+    "code": "TDT4111",
+    "name": "Information Technology, Introduction",
+    "credits": 7.5,
+    "description": "The course consists of two parts: ICT theory and basic procedure-oriented programming in Python.ICT theory:Basics of computer structure and operation. Digital representation of information. Basics, methods, applications and tools of artificial intelligence, machine learning and big data. Computers in connection to society, ethical and sustainability aspects.Procedure-oriented programming:Variables",
+    "prerequisites": "None.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "INFT1010",
+      "IT1001",
+      "TDT4109",
+      "TDT4110"
+    ],
+    "canonicalCode": "TDT4110"
+  },
+  {
+    "code": "MET1001",
+    "name": "Mathematics for Business",
+    "credits": 7.5,
+    "description": "The course treats basic mathematical concepts and methods of analysis and supports the appropriation of mathematical representations in other parts of the study programme. The following themes will be treated:Elementary algebra (including solving equations and systems of equations)Functions of one variable (including polynomial functions, rational functions, exponential functions, logarithmic func",
+    "prerequisites": "A good foundation in mathematics (S1 + S2/R1 or equivalent) is recommended",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "AR100919",
+      "REA1153",
+      "REA1153F",
+      "SØK1001"
+    ],
+    "canonicalCode": "MET1001"
+  },
+  {
+    "code": "ST1101",
+    "name": "Probability and Statistics",
+    "credits": 7.5,
+    "description": "Sample space and events. Uniform probability model. The probability axioms. Probability laws. Conditional probability. Independence. Combinatorics. The urn model. Random variables. Definition of the integral. Mean value, variance and standard deviation. Discrete and continuous univariate probability distributions. Transformation of random variables. Discrete and continuous bivariate distributions.",
+    "prerequisites": "MA1101 Foundational calculus 1.",
+    "prerequisiteCodes": [
+      "MA1101"
+    ],
+    "equivalentCodes": [
+      "AR100219",
+      "MET1002",
+      "REA1154",
+      "REA1154F",
+      "ST0103",
+      "SØK1004"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "AR100219",
+    "name": "Statistics for Business",
+    "credits": 7.5,
+    "description": "Descriptive statistics: Location measures, variance measuresProbability calculations and combinatorics: The concept of probability, probability models, conditional probabilityDiscrete stochastic variables: Calculation of expectation/variance/covariance, binomial distribution, hypergeometric distribution, poisson distributionContinuous stochastic variables: Normal distribution, exponential distribu",
+    "prerequisites": "",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MET1002",
+      "REA1154",
+      "REA1154F",
+      "ST0103",
+      "ST1101",
+      "SØK1004"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "REA1154",
+    "name": "Statistics for Business",
+    "credits": 7.5,
+    "description": "- Descriptive statistics: Location measures, variance measures- Probability calculations and combinatorics: The concept of probability, probability models, conditional probability- Discrete stochastic variables: Calculation of expectation/variance/covariance, binomial distribution, hypergeometric distribution, poisson distribution- Continuous stochastic variables: Normal distribution, exponential ",
+    "prerequisites": "Basic knowledge in mathematics",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "AR100219",
+      "MET1002",
+      "REA1154F",
+      "ST0103",
+      "ST1101",
+      "SØK1004"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "REA1154F",
+    "name": "Statistics for Business",
+    "credits": 7.5,
+    "description": "Descriptive statistics: Location measures, variance measuresProbability calculations and combinatorics: The concept of probability, probability models, conditional probabilityDiscrete stochastic variables: Calculation of expectation/variance/covariance, binomial distribution, hypergeometric distribution, poisson distributionContinuous stochastic variables: Normal distribution, exponential distribu",
+    "prerequisites": "An introductory course in mathematics.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "AR100219",
+      "MET1002",
+      "REA1154",
+      "ST0103",
+      "ST1101",
+      "SØK1004"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "SØK1004",
+    "name": "Statistics for Economists",
+    "credits": 7.5,
+    "description": "Data is required to quantify economic relationships and statistical models are used to draw information from data which is characterized by uncertainty and variation. This course covers methods used to analyse such data and include the calculation of probability, model estimation and hypothesis testing. The topic also includes the use of statistical tools.",
+    "prerequisites": "SØK1001/ MET1001 and TDT4111 or equivalent",
+    "prerequisiteCodes": [
+      "MET1001",
+      "TDT4110"
+    ],
+    "equivalentCodes": [
+      "AR100219",
+      "MET1002",
+      "REA1154",
+      "REA1154F",
+      "ST0103",
+      "ST1101"
+    ],
+    "canonicalCode": "ST0103"
+  },
+  {
+    "code": "SØK1001",
+    "name": "Mathematics for Economists",
+    "credits": 7.5,
+    "description": "The course treats basic mathematical concepts and methods of analysis and supports the appropriation of mathematical representations in other parts of the study programme. The following themes will be treated:Elementary algebra (including solving equations and systems of equations)Functions of one variable (including polynomial functions, rational functions, exponential functions, logarithmic func",
+    "prerequisites": "A good foundation in mathematics (S1 + S2/R1 or equivalent) is recommended",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "AR100919",
+      "MET1001",
+      "REA1153",
+      "REA1153F"
+    ],
+    "canonicalCode": "MET1001"
+  },
+  {
+    "code": "AR100919",
+    "name": "Mathematics for Business",
+    "credits": 7.5,
+    "description": "The course treats basic mathematical concepts and methods of analysis and supports the appropriation ofmathematical representations in other parts of the study programme. The following themes will be treated:- Elementary algebra (including solving equations and systems of equations)- Functions of one variable (including polynomial functions, rational functions, exponential functions, logarithmicfu",
+    "prerequisites": "A good foundation in mathematics (S1 + S2/R1 or equivalent) is recommended",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "MET1001",
+      "REA1153",
+      "REA1153F",
+      "SØK1001"
+    ],
+    "canonicalCode": "MET1001"
+  },
+  {
+    "code": "REA1153F",
+    "name": "Mathematics for Business",
+    "credits": 7.5,
+    "description": "The course treats basic mathematical concepts and methods of analysis and supports the appropriation of mathematical representations in other parts of the study programme.The following themes will be treated:Elementary algebra (including solving equations and systems of equations)Functions of one variable (including polynomial functions, rational functions, exponential functions, logarithmic funct",
+    "prerequisites": "A good foundation in mathematics (S1 + S2/R1 or equivalent) is recommended.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "AR100919",
+      "MET1001",
+      "REA1153",
+      "SØK1001"
+    ],
+    "canonicalCode": "MET1001"
+  },
+  {
+    "code": "REA1153",
+    "name": "Mathematics for Business",
+    "credits": 7.5,
+    "description": "The course treats basic mathematical concepts and methods of analysis and supports the appropriation of mathematical representations in other parts of the study programme.The following themes will be treated:Elementary algebra (including solving equations and systems of equations)Functions of one variable (including polynomial functions, rational functions, exponential functions, logarithmic funct",
+    "prerequisites": "A good foundation in mathematics (S1 + S2/R1 or equivalent) is recommended.",
+    "prerequisiteCodes": [],
+    "equivalentCodes": [
+      "AR100919",
+      "MET1001",
+      "REA1153F",
+      "SØK1001"
+    ],
+    "canonicalCode": "MET1001"
+  }
+]

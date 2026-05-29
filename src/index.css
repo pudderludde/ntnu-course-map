@@ -1,0 +1,7 @@
+.react-flow__edge,
+.react-flow__edge-path,
+.react-flow__edge-interaction,
+.react-flow__edges * {
+  pointer-events: none !important;
+  cursor: default;
+}
