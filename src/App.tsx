@@ -96,40 +96,59 @@ function MobileBottomSheet({ open, onToggle, course, allCourses, onClose }: Shee
         right: 0,
         zIndex: 20,
         background: '#fff',
-        borderTop: '1px solid #e2e8f0',
         borderRadius: '16px 16px 0 0',
-        boxShadow: '0 -4px 20px rgba(0,0,0,0.12)',
+        boxShadow: '0 -4px 24px rgba(0,0,0,0.18)',
         transition: 'height 0.25s ease',
-        height: open ? '60vh' : '52px',
+        height: open ? '60vh' : '64px',
         display: 'flex',
         flexDirection: 'column',
       }}
     >
-      {/* Handle bar / toggle row */}
+      {/* Drag handle pill */}
+      <div style={{ display: 'flex', justifyContent: 'center', paddingTop: 10, flexShrink: 0 }}>
+        <div style={{ width: 36, height: 4, borderRadius: 2, background: '#cbd5e1' }} />
+      </div>
+
+      {/* Toggle row */}
       <div
         onClick={onToggle}
         style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          padding: '14px 16px',
+          padding: '8px 12px 8px 16px',
           cursor: 'pointer',
           flexShrink: 0,
+          minHeight: 44,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <span style={{ fontFamily: 'monospace', fontWeight: 700, fontSize: 14, color: '#3b82f6' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, overflow: 'hidden' }}>
+          <span style={{ fontFamily: 'monospace', fontWeight: 700, fontSize: 14, color: '#3b82f6', flexShrink: 0 }}>
             {course.code}
           </span>
-          <span style={{ fontSize: 13, color: '#1e293b', fontWeight: 600 }}>{course.name}</span>
+          <span style={{ fontSize: 13, color: '#1e293b', fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{course.name}</span>
         </div>
-        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-          <span style={{ fontSize: 18, color: '#94a3b8', lineHeight: 1 }}>
+        <div style={{ display: 'flex', gap: 4, alignItems: 'center', flexShrink: 0, marginLeft: 8 }}>
+          {/* Toggle button */}
+          <div
+            style={{
+              width: 36, height: 36, borderRadius: 18,
+              background: '#f1f5f9',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 16, color: '#475569',
+            }}
+          >
             {open ? '▾' : '▴'}
-          </span>
+          </div>
+          {/* Close button */}
           <button
             onClick={(e) => { e.stopPropagation(); onClose() }}
-            style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 18, color: '#94a3b8', padding: 0, lineHeight: 1 }}
+            style={{
+              width: 36, height: 36, borderRadius: 18,
+              background: '#f1f5f9', border: 'none', cursor: 'pointer',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 18, color: '#475569', padding: 0,
+            }}
           >
             ×
           </button>
