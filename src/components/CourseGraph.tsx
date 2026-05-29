@@ -14,6 +14,7 @@ import {
 import '@xyflow/react/dist/style.css'
 import type { Course } from '../types'
 import { applyDagreLayout } from '../utils/layout'
+import { transitiveReduction } from '../utils/transitiveReduction'
 import { useHighlight } from '../hooks/useHighlight'
 import CourseNode, { type NodeState } from './CourseNode'
 
@@ -60,20 +61,21 @@ export default function CourseGraph({ courses, selectedCode, onSelect }: Props) 
     [courses]
   )
 
-  const baseEdges: Edge[] = useMemo(
-    () =>
-      courses.flatMap((c) =>
-        c.prerequisiteCodes
-          .filter((dep) => courses.some((x) => x.code === dep))
-          .map((dep) => ({
-            id: `${dep}->${c.code}`,
-            source: dep,
-            target: c.code,
-            style: { stroke: '#cbd5e1', strokeWidth: 1.5 },
-            markerEnd: { type: MarkerType.ArrowClosed, color: '#cbd5e1' },
-            interactionWidth: 0,
-          }))
-      ),
+  const baseEdges: Edge[] = useMemo(() => {
+    const allEdges = courses.flatMap((c) =>
+      c.prerequisiteCodes
+        .filter((dep) => courses.some((x) => x.code === dep))
+        .map((dep) => ({
+          id: `${dep}->${c.code}`,
+          source: dep,
+          target: c.code,
+          style: { stroke: '#cbd5e1', strokeWidth: 1.5 },
+          markerEnd: { type: MarkerType.ArrowClosed, color: '#cbd5e1' },
+          interactionWidth: 0,
+        }))
+    )
+    return transitiveReduction(allEdges)
+  },
     [courses]
   )
 
